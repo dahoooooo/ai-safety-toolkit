@@ -80,15 +80,23 @@ Choose the file that matches your platform and follow the instructions inside.
 
 ---
 
-### Claude (Web / Mobile)
-**File:** [`skills/claude-system-prompt.md`](./skills/claude-system-prompt.md)
+### Claude (Web / Mobile) — Recommended ✅
+**File:** [`skills/ai-security-check/SKILL.md`](./skills/ai-security-check/SKILL.md)
+
+This is a proper Claude Skill — install it once and it activates automatically whenever needed.
 
 **How to install:**
-1. Go to [claude.ai](https://claude.ai)
-2. Click your avatar → **Settings → Profile**
-3. Find the custom instructions field
-4. Copy the content after the `---` divider and paste it in
-5. Save
+1. Download the `skills/ai-security-check/` folder and zip it into `ai-security-check.zip`
+2. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills)
+3. Upload the ZIP file
+4. Enable the Skill — done
+
+> **Note:** This feature requires Code Execution to be enabled in your Settings → Capabilities.
+
+**Alternative (no zip needed):**
+**File:** [`skills/claude-system-prompt.md`](./skills/claude-system-prompt.md)
+1. Go to [claude.ai](https://claude.ai) → avatar → **Settings → Profile**
+2. Paste the content into the custom instructions field and save
 
 ---
 
