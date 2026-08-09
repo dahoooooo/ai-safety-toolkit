@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex AI Security Check"
+  short_description: "Review unfamiliar AI inputs before taking risky actions."
+  default_prompt: "Use $codex-ai-security-check to assess this GitHub skill before I install it: <URL>."

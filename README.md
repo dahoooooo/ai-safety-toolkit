@@ -44,6 +44,8 @@ ai-safety-toolkit/
 │   └── ai-tools-security-guide.md        ← 📖 Read this first (bilingual)
 │
 └── skills/
+    ├── ai-security-check/                    ← Claude Skill
+    ├── codex-ai-security-check/              ← Codex Skill
     ├── claude-cowork-global-instructions.md   ← Claude Cowork
     ├── claude-system-prompt.md                ← Claude (web / mobile)
     ├── claude-code-CLAUDE.md                  ← Claude Code
@@ -118,6 +120,15 @@ This is a proper Claude Skill — install it once and it activates automatically
 2. Click your avatar → **Settings → Personalization → Custom Instructions**
 3. Paste the content into the **"How would you like ChatGPT to respond?"** field
 4. Save
+
+---
+
+### Codex
+**Folder:** [`skills/codex-ai-security-check/`](./skills/codex-ai-security-check/)
+
+This Codex skill reviews unfamiliar prompts, GitHub skills, plugins, files, and code before potentially risky actions. Install the complete folder into your Codex skills directory, or keep it in a source library and symlink it into `~/.codex/skills/`.
+
+It provides a structured assessment and recommends least-privilege permissions; it does not replace Codex's sandbox or approval controls, and it does not guarantee that content is safe.
 
 ---
 
